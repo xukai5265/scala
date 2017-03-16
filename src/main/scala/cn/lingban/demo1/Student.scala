@@ -16,8 +16,10 @@ class Student(var name:String,var address:String) {
 
 //伴生对象
 object Student extends App{
+  //静态常量
   private var sno:Int = 100
 
+  //静态方法
   def incrementSno()={
     sno += 1 //加1
     sno  //返回sno
